@@ -1,0 +1,22 @@
+.bar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.bar {
+  width: 700px;
+  height: 400px;
+}
+
+.bar-hover {
+  text-align: left;
+  line-height: 0.8;
+}
+
+h3 {
+  background-color: rgba(53, 162, 235, 0.5);
+  font-size: 1.5rem;
+  padding: 5px 8px;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.phase {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.phase:hover {
+  background-color: #dcdcdc;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  z-index: 999;
+}
